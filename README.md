@@ -71,9 +71,8 @@ Available HTTP methods on a resource
 | GET         | /books | index | books.index | Get all books |
 | GET         | /books/create | create | books.create | Get new created books |
 | POST         | /books | store | books.store | Create a new book |
-| GET         | /books/{movie} | show | books.show | Get data of specific book |
-| GET         | /books/{movie}/edit | edit | books.edit | Edit specific book |
-| PUT/PATCH         | /books/{movie} | update | books.update | Update a specific book |
+| GET         | /books/{book}/edit | edit | books.edit | Edit specific book |
+| PUT/PATCH         | /books/{book} | update | books.update | Update a specific book |
 | DELETE         | /books{delete} | destroy | books.destroy | Delete a specific book |
 
 
