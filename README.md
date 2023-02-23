@@ -68,13 +68,13 @@ Available HTTP methods on a resource
 
 | **Verb**        | **Path**           | **Action**  | **Route Name**        | **Description**   |
 | ------------- |-------------| -----| ------------- |-------------|
-| GET         | /movies | index | movies.index | Get all movies |
-| GET         | /movies/create | create | movies.create | Get new created movies |
-| POST         | /movies | store | movies.store | Create a new movie |
-| GET         | /movies/{movie} | show | movies.show | Get data of specific movie |
-| GET         | /movies/{movie}/edit | edit | movies.edit | Edit specific movie |
-| PUT/PATCH         | /movies/{movie} | update | movies.update | Update a specific movies |
-| DELETE         | /movies{delete} | destroy | movies.destroy | Delete a specific movie |
+| GET         | /books | index | books.index | Get all books |
+| GET         | /books/create | create | books.create | Get new created books |
+| POST         | /books | store | books.store | Create a new book |
+| GET         | /books/{movie} | show | books.show | Get data of specific book |
+| GET         | /books/{movie}/edit | edit | books.edit | Edit specific book |
+| PUT/PATCH         | /books/{movie} | update | books.update | Update a specific book |
+| DELETE         | /books{delete} | destroy | books.destroy | Delete a specific book |
 
 
 ## Status codes
